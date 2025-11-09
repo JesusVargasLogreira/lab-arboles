@@ -7,8 +7,8 @@ package jesus.lab.arboles;
 public class NodoAVL {
 
     public Producto producto;
-    int altura;
-    NodoAVL izq, der;
+    public int altura;
+    public NodoAVL izq, der;
 
     NodoAVL(Producto producto) {
         this.producto = producto;
